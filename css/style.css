@@ -37,7 +37,7 @@ body {
   color: #454545;
   font-size: 14px;
   font-family: 'Poppins', sans-serif;
-  background-color: #ffffff;
+  background-color: #505050;
   overflow-x: hidden;
   max-width: 100%;
   overflow-x: hidden !important;
@@ -101,6 +101,9 @@ h5 {
 .text-thm1 {
   color: #fb4848 !important;
 }
+.white {
+  color: #eeeeee
+}
 .text-thm2 {
   color: #f95b5b !important;
 }
@@ -113,7 +116,7 @@ h5 {
   transition: all 0.3s ease;
 }
 .ulockd-btn-thm {
-  background-color: #fb4848;
+  background-color: #505050;
   border-color: #fb4848;
   color: #fff;
   padding: 10px 35px;
@@ -123,7 +126,7 @@ h5 {
 .ulockd-btn-thm:focus {
   background-color: #313131;
   border-color: #313131;
-  color: #fff;
+  color:#eeeeee;
 }
 /* Style Two Button */
 .ulockd-btn-thm2 {
@@ -200,7 +203,7 @@ section {
 
 /* ========== PRELOADER ========== */
 .preloader {
-  background-color:#ffffff;
+  background-color:#505050;
   background-image:url(../images/preloader.gif);
   background-position:center center;
   background-repeat:no-repeat;
@@ -427,7 +430,7 @@ section {
     color: #fff;
   }
   .total a.btn.btn-default.btn-cart{
-    color: #313131 !important;
+    color: #eeeeee !important;
   }
   .dropdown-menu.cart-list p,
   .dropdown-menu.cart-list p .price{
@@ -776,7 +779,7 @@ section {
   }
 /*=========== FIRST FEATURE PROJECT ONE ==========*/
   .ulockd-feature-phoject-one {
-    background-color: #f1f1f1;
+    background-color: #505050;
     padding-top: 90px;
     padding-bottom: 100px;
     position: relative;
@@ -1160,7 +1163,7 @@ section {
     padding-top: 55px;
   }
   .ulockd-ap-backgrndclr{
-    background-color: #f5f5f5;
+    background-color: #505050;
   }
   .ulockd-all-service {
     margin-top: 15px;
@@ -1179,7 +1182,7 @@ section {
     border-color:  #fb4848;
   }
   .ulockd-inr-brochure {
-    background-color: #f5f5f5;
+    background-color: #505050;
     margin-top: 35px;
     padding: 10px 30px;
   }
@@ -1260,7 +1263,7 @@ section {
     padding: 10px 25px;
   }
   .ulockd-inr-testimonials p {
-    color: #313131;
+    color: #eeeeee;
   }
   .ulockd-inr-testimonials h3{
     color: #333;
@@ -1283,7 +1286,7 @@ section {
   }
   .ulockd-tag-list-details a {
     border: 1px solid;
-    color: #313131;
+    color: #eeeeee;
     display: block;
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
@@ -1454,7 +1457,7 @@ section {
     z-index: 0;
   }
   .ulockd-service-three {
-    background-color: #f8f8f8;
+    background-color: #505050;
     padding-bottom: 70px;
     padding-top: 110px;
   }
@@ -1840,7 +1843,7 @@ section {
   }
   .masonry-filter a {
     border: 1px solid #eeeeee;
-    color: #555555;
+    color: #ffffff;
     display: inline-block;
     float: none;
     line-height: 40px;
@@ -1862,6 +1865,7 @@ section {
     color: #ffffff;
   }
   .masonry-filter a > span {
+    font-color: #ffffff
     font-family: 'Montserrat', sans-serif;
     font-size: 13px;
     font-weight: 300;
@@ -2208,7 +2212,7 @@ section {
     z-index: -1;
   }
   .ulockd-testimonial{
-    background-color: #f7f7f7;
+    background-color: #505050;
     background-size: cover;
     background-repeat: no-repeat;
     padding-bottom: 120px;
@@ -2521,7 +2525,7 @@ section {
   }
   /* APPOINTMENT FORM STYLE */
   .appointment_form{
-    background-color: #f3f3f3;
+    background-color: #505050;
     padding: 15px 35px;
   }
   .appointment_form input{
@@ -2535,7 +2539,7 @@ section {
   }
   /* BOOKING FORM STYLE */
   .booking_form{
-    background-color: #f3f3f3;
+    background-color: #505050;
     padding: 0 35px 5px;
   }
   .booking_select,
@@ -2620,7 +2624,7 @@ section {
     padding: 5px;
   }
   .ulockd-sitemap > li a {
-    color: #313131;
+    color: #eeeeee;
     text-transform: uppercase;
   }
   .ulockd-sitemap > li a:hover {
