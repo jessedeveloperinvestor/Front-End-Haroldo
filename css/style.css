@@ -1,17 +1,6 @@
 @charset "utf-8";
 
-/*******
-Project/Theme Name:  Mr Fix
-Theme Url:  https://themeforest.net/item/
-Author: unlockdesign
-Author Url: https://themeforest.net/user/unlockdesign
-Version: 1.0
-Description: Mr Fix - Auto Mechanic & Car Repair HTML Template
-Tag: automobile, Auto Mechanic, business, business, Car Repair, car wash, garage, handyman, local, motor mechanic, repair shop, retail, serviceman etc
-
-********/
-
-/* CSS Document */
+/*Tag: automobile, Auto Mechanic, business, business, Car Repair, car wash, garage, handyman, local, motor mechanic, repair shop, retail, serviceman etc*/
 @import "../css/jquery-ui.min.css";
 @import "../css/font-awesome.min.css";
 @import "../css/font-awesome-animation.min.css";
@@ -45,6 +34,16 @@ body {
 img {
   max-width: 100%;
 }
+.seta {
+  position: absolute;
+  padding: 3rem; /* Arrow size */
+          box-shadow: 1px -1px 0 1px red inset;
+  -webkit-box-shadow: 2px -2px red inset;
+  border: solid transparent;
+  border-width: 0 0 2rem 2rem;
+  transition: 0.2s;
+}
+.seta-direita { transform:rotate(225deg) }
 p {
   font-family: 'Poppins', sans-serif;
   font-size: 14px;
